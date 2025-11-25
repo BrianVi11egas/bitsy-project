@@ -1,0 +1,562 @@
+Star Wars: A New Hope - Final Scene
+
+# BITSY VERSION 8.14
+
+! VER_MAJ 8
+! VER_MIN 14
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+5,3,204
+128,159,255
+57,223,255
+NAME blueprint
+
+ROOM 0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,a,a,a,a,a,0,0,a,a,a,a,a,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Champions entrance 
+ITM 3 6,9
+ITM 3 10,8
+ITM 3 6,5
+ITM 3 6,3
+ITM 3 9,11
+ITM 3 10,13
+ITM 3 9,4
+ITM 3 6,7
+EXT 7,1 2 7,14
+EXT 8,1 2 8,14
+PAL 0
+TUNE 2
+
+ROOM 2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,b,b,b,b,b,b,b,b,b,b,b,b,a,0
+0,a,a,a,a,a,a,0,0,a,a,a,a,a,a,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME You Win!
+ITM 2 7,2
+EXT 7,14 0 7,1
+EXT 8,14 0 8,1
+END e 7,2
+PAL 0
+TUNE 2
+
+TIL a
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+11111111
+NAME block
+
+TIL b
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME tile 1
+
+SPR A
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+
+SPR a
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer
+DLG 0
+POS 0 6,10
+BLIP 1
+
+SPR b
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 2
+DLG 3
+POS 0 9,7
+
+SPR c
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 3
+DLG 4
+POS 0 6,6
+
+SPR d
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 4
+DLG 5
+POS 0 6,4
+
+SPR e
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 4
+DLG 6
+POS 0 10,5
+
+SPR f
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 5
+DLG 7
+POS 0 9,3
+
+SPR g
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 6
+DLG 8
+POS 0 9,10
+
+SPR h
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 7
+DLG 9
+POS 0 10,12
+
+SPR i
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 8
+DLG a
+POS 0 10,9
+
+SPR j
+00011000
+00111100
+00111100
+00000000
+00111100
+00111100
+00011000
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01111100
+00011100
+00011000
+00000000
+NAME X-wing flyer 9
+DLG b
+
+SPR k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR l
+00000000
+00011000
+00100100
+00100100
+00011000
+00011000
+00011000
+00011000
+NAME Leia
+DLG d
+POS 2 7,3
+
+SPR m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+ITM 0
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+00000000
+NAME tea
+DLG 1
+
+ITM 1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG 2
+BLIP 2
+
+ITM 2
+00011000
+00100100
+00011000
+00011000
+00100100
+00100100
+00011000
+00000000
+>
+00011000
+00100100
+00011000
+00110000
+01001000
+01001000
+00110000
+00000000
+NAME Medal
+DLG c
+
+ITM 3
+00000000
+00000000
+00011000
+00111100
+00111100
+00011000
+00000000
+00000000
+NAME Tokens
+BLIP 3
+
+DLG 0
+Good Job on taking down the Death Star, have a token of appreciation
+NAME cat dialog
+
+DLG 1
+You found a nice warm cup of tea
+NAME tea dialog
+
+DLG 2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG 3
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite b dialog
+
+DLG 4
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite c dialog
+
+DLG 5
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite d dialog
+
+DLG 6
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite e dialog
+
+DLG 7
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite f dialog
+
+DLG 8
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite g dialog
+
+DLG 9
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite h dialog
+
+DLG a
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite i dialog
+
+DLG b
+Good Job on taking down the Death Star, have a token of appreciation
+NAME sprite j dialog
+
+DLG c
+This is your {wvy}Medal!{wvy}
+NAME Medal dialog
+
+DLG d
+Thanks for defeating the Death Star, but the battle isn't over yet
+NAME Leia dialog
+
+DLG e
+Thanks for playing my game
+NAME ending 1
+
+VAR a
+42
+
+TUNE 1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP FST
+SQR P4 P4
+ARP INT8
+
+TUNE 2
+0,0,2s,0,l,0,t,0,2d5,0,t,l,s,0,2s,0
+s3,0,r,0,s3,0,r,0,2l3,0,m,0,d,0,m,0
+>
+0,0,s,0,l,0,0,0,2m,0,0,m,4r,0,0,0
+2r,0,m,0,0,0,r,0,2d,0,2s3,0,0,0,r2,0
+>
+0,0,2s,0,l,0,t,0,2d5,0,t,l,s,0,s,0
+2s2,0,r,r5,s3,s,r,0,2d2,0,m,m5,d3,d,m5,0
+>
+2r,0,d5,t,l,0,l,0,4l,0,0,0,0,0,0,0
+l2,0,m3,0,d3,0,m3,0,r3,0,l3,0,r,0,0,0
+>
+2m5,0,2s,0,2s5,0,2s,0,0,0,2m5,0,2r5,0,2d5,0
+2d3,0,2m,0,2m5,0,2d,0,2l3,0,2d,0,0,0,2m,0
+>
+3t,0,0,0,2m5,0,r5,0,4l,0,0,0,s,0,0,0
+2s3,0,t3,0,2r,0,r3,0,2d3,0,s3,0,0,0,0,0
+>
+0,0,2s,0,l,0,2t,0,d5,0,t,d5,l,0,s,0
+l2,0,l3,0,d,0,2r,0,0,0,r,m,d,0,d3,0
+>
+8t,0,0,0,0,0,0,0,l,0,0,0,m,0,r,0
+r3,0,l3,0,0,0,r,0,d,0,2r3,0,d3,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME tuneful town
+KEY C,D,E,F,G,A,B d,r,m,f,s,l,t
+TMP FST
+SQR P2 P2
+
+TUNE 3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME pick up key
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
+BLIP 3
+C#,F,F
+NAME pick up coin
+ENV 93 77 9 113 87
+BEAT 93 0
+SQR P4
+
