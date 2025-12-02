@@ -16,28 +16,32 @@ NAME blueprint
 
 PAL 1
 26,58,153
-171,190,142
+148,175,85
 0,0,0
 
+PAL 2
+186,189,255
+170,180,89
+0,115,255
+
 ROOM 0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,a,a,a,a,a,a,0,0,a,a,a,a,a,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,a,a,a,a,a,a,a,a
+0,a,a,a,a,a,a,0,0,a,a,a,a,a,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+a,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME example room
-ITM 5 9,11
 ITM 5 10,13
 ITM 5 10,8
 ITM 5 9,4
@@ -47,8 +51,9 @@ ITM 5 6,7
 ITM 5 6,9
 ITM 5 4,6
 ITM 5 4,10
-EXT 8,1 4 8,14
-EXT 7,1 4 7,14
+ITM 6 9,11
+EXT 8,1 4 8,14 FX tunnel
+EXT 7,1 4 7,14 FX tunnel
 PAL 0
 TUNE 2
 
@@ -77,27 +82,50 @@ TUNE 3
 
 ROOM 4
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,0
-0,a,a,a,a,a,a,0,0,a,a,a,a,a,a,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,0
+a,0,0,0,0,a,a,a,a,a,a,a,3m,3m,a,0
+a,0,a,a,3m,3m,3m,3m,a,a,3m,a,3m,3m,a,0
+a,0,3m,a,a,a,a,3m,a,3m,3m,3m,3m,3m,a,0
+a,0,3m,3m,3m,3m,a,a,a,3m,a,3m,a,a,a,0
+a,0,3m,0,0,0,3m,3m,3m,3m,a,3m,3m,3m,a,0
+a,0,3m,0,3m,0,3m,3m,3m,3m,a,3m,3m,3m,a,0
+a,0,3m,0,3m,0,3m,0,0,3m,a,a,a,3m,a,0
+a,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,3m,a,0
+a,a,a,3m,a,a,3m,3m,3m,a,a,a,a,3m,a,0
+a,a,a,3o,3m,3m,a,3m,3m,a,3m,0,a,3m,a,0
+a,a,a,a,a,3m,a,3m,a,a,0,a,a,3m,a,0
+a,0,3m,3m,3m,3m,a,3m,3m,a,3m,3m,3m,3m,a,0
+a,0,a,a,a,a,a,0,0,a,a,a,a,a,a,0
+a,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 ITM 2 7,4
-EXT 8,14 0 8,1
-EXT 7,14 0 7,1
-EXT 7,4 1 12,7
-PAL 0
+ITM 7 7,12
+ITM 8 0,0
+EXT 8,14 0 8,1 FX tunnel
+EXT 7,14 0 7,1 FX tunnel
+EXT 7,4 1 12,7 FX slide_u
+EXT 0,0 0 13,13
+PAL 2
 TUNE 2
+
+ROOM 5
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Secret room 1
+PAL 0
 
 TIL 1
 11111111
@@ -1406,6 +1434,28 @@ TIL 3n
 00000000
 00000000
 
+TIL 3o
+10000000
+11000000
+11100000
+11110000
+11111000
+11110000
+11100000
+11000000
+
+SPR 10
+00000000
+00011000
+00100100
+00100100
+01111110
+01111110
+01111110
+01111110
+NAME R2D2
+POS 5 8,10
+
 SPR A
 00111000
 00111000
@@ -1890,6 +1940,18 @@ SPR y
 00111100
 00000000
 
+SPR z
+00111100
+00100100
+00111100
+00111100
+00011000
+00111100
+00111100
+00011000
+NAME chewbacca
+POS 5 7,10
+
 ITM 0
 00000000
 00000000
@@ -1955,6 +2017,7 @@ ITM 4
 00110000
 00000000
 NAME medal
+BLIP 6
 
 ITM 5
 00000000
@@ -1966,13 +2029,73 @@ ITM 5
 00000000
 00000000
 NAME Token
+DLG f
+BLIP 2
+
+ITM 6
+00000000
+00000000
+00011000
+00111100
+00111100
+00011000
+00000000
+00000000
+NAME special coin
+DLG g
+BLIP 2
+
+ITM 7
+00000000
+00000000
+00011000
+00111100
+00111100
+00011000
+00000000
+00000000
+NAME Evil token
+DLG h
+BLIP 2
+
+ITM 8
+00000000
+00111000
+00101000
+00111000
+00010000
+00010000
+00010000
+00010000
+
+ITM 9
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME chewbacca
+
+ITM a
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME R2D2
 
 DLG 0
 I'm a cat
 NAME cat dialog
 
 DLG 1
-You found a nice warm cup of tea
+
 NAME tea dialog
 
 DLG 2
@@ -2027,20 +2150,32 @@ DLG e
 You've got guts kid!
 NAME Han Solo dialog
 
-VAR a
-42
+DLG f
+
+NAME Token dialog
+
+DLG g
+This is a coin! Collect {wvy}All of them!{wvy}
+NAME special coin dialog
+
+DLG h
+You thought this was going to be east?
+NAME Evil token dialog
+
+VAR tea
+1
 
 TUNE 1
-r,m,d,r,d,m,0,s,d,d,0,0,s,d,0,0
+l,d5,d5,r,d,l,0,d5,l,l,d5,l,s,d,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 >
-0,r,m,m,d,r,0,d,d,s,r,0,d,0,0,0
+l,d5,d5,l,d,r,d5,d5,d,s,r,0,d,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 >
 r,d,m,0,d,d,0,s,d,d,0,0,s,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 >
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,r,m,4s,0,0,0,0,l,d5,2l,0,d5,0,l,l
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 KEY C,D,E,F,G,A,B d,r,m,s,l
 TMP MED
@@ -2088,4 +2223,53 @@ KEY C,D,E,F,G,A,B d,r,m,s,l
 TMP SLW
 SQR P4 P8
 ARP INT8
+
+BLIP 1
+G#3,A3,C3
+NAME pick up 1
+ENV 66 83 7 126 89
+BEAT 71 0
+SQR P4
+
+BLIP 2
+F#3,C3,A#3
+NAME pick up 2
+ENV 80 79 3 121 110
+BEAT 71 0
+SQR P2
+
+BLIP 3
+B5,C5,G#5
+NAME pick up 3
+ENV 93 113 9 178 145
+BEAT 81 0
+SQR P8
+
+BLIP 4
+C,B,F
+NAME pick up 4
+ENV 68 79 2 152 146
+BEAT 89 0
+SQR P4
+
+BLIP 5
+C#3,D3,D#3
+NAME pick up 5
+ENV 109 113 5 69 77
+BEAT 89 0
+SQR P8
+
+BLIP 6
+D5,C5,F5
+NAME pick up 6
+ENV 108 126 8 116 138
+BEAT 70 0
+SQR P2
+
+BLIP 7
+G#3,A#3,F#3
+NAME pick up 7
+ENV 74 120 7 97 77
+BEAT 62 0
+SQR P2
 
