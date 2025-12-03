@@ -51,9 +51,12 @@ ITM 5 6,7
 ITM 5 6,9
 ITM 5 4,6
 ITM 5 4,10
-ITM 6 9,11
+ITM 6 7,11
+ITM 5 9,11
+ITM 9 0,12
 EXT 8,1 4 8,14 FX tunnel
 EXT 7,1 4 7,14 FX tunnel
+EXT 0,12 6 7,1
 PAL 0
 TUNE 2
 
@@ -89,7 +92,7 @@ a,0,3m,a,a,a,a,3m,a,3m,3m,3m,3m,3m,a,0
 a,0,3m,3m,3m,3m,a,a,a,3m,a,3m,a,a,a,0
 a,0,3m,0,0,0,3m,3m,3m,3m,a,3m,3m,3m,a,0
 a,0,3m,0,3m,0,3m,3m,3m,3m,a,3m,3m,3m,a,0
-a,0,3m,0,3m,0,3m,0,0,3m,a,a,a,3m,a,0
+a,0,3p,0,3m,0,3m,0,0,3m,a,a,a,3m,a,0
 a,a,3m,3m,3m,3m,3m,3m,3m,3m,3m,3m,a,3m,a,0
 a,a,a,3m,a,a,3m,3m,3m,a,a,a,a,3m,a,0
 a,a,a,3o,3m,3m,a,3m,3m,a,3m,0,a,3m,a,0
@@ -103,28 +106,47 @@ ITM 8 0,0
 EXT 8,14 0 8,1 FX tunnel
 EXT 7,14 0 7,1 FX tunnel
 EXT 7,4 1 12,7 FX slide_u
-EXT 0,0 0 13,13
+EXT 0,0 5 7,1
 PAL 2
 TUNE 2
 
 ROOM 5
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,0,a,a,a,a,a,a,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME Secret room 1
+PAL 0
+
+ROOM 6
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,0,a,a,a,a,a,a,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,0,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,a,0,0,0,0,0,0,0,0,0,0,0,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 PAL 0
 
 TIL 1
@@ -1444,6 +1466,16 @@ TIL 3o
 11100000
 11000000
 
+TIL 3p
+00001111
+00011111
+00111111
+01111111
+00111111
+00011111
+00001111
+00000111
+
 SPR 10
 00000000
 00011000
@@ -1454,7 +1486,29 @@ SPR 10
 01111110
 01111110
 NAME R2D2
+DLG j
 POS 5 8,10
+
+SPR 11
+00011000
+00111100
+00111100
+00000000
+01001110
+01011110
+00111100
+00000000
+>
+00011000
+00111100
+01111100
+01000000
+01001110
+00011110
+00111100
+00000000
+DLG l
+POS 6 7,12
 
 SPR A
 00111000
@@ -1950,6 +2004,7 @@ SPR z
 00111100
 00011000
 NAME chewbacca
+DLG i
 POS 5 7,10
 
 ITM 0
@@ -2070,14 +2125,15 @@ ITM 8
 
 ITM 9
 00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
-00000000
+00111000
+00101000
+00111000
+00010000
+00010000
+00010000
+00010000
 NAME chewbacca
+DLG k
 
 ITM a
 00000000
@@ -2151,19 +2207,32 @@ You've got guts kid!
 NAME Han Solo dialog
 
 DLG f
-
+{item "5" {{item "5"} + 1}}
 NAME Token dialog
 
 DLG g
-This is a coin! Collect {wvy}All of them!{wvy}
+This is a coin! Collect {wvy}All of them!{wvy}{item "6" {{item "5"} + 1}}
 NAME special coin dialog
 
 DLG h
-You thought this was going to be east?
+You thought this was going to be east?{item "7" {{item "5"} + 1}}
 NAME Evil token dialog
 
-VAR tea
-1
+DLG i
+{wvy}{rbw}raaaaaaaawr (Wow, you found us in the back if the room, you have found a secret area. please head back to the celebration.) {/rbw}{/wvy}{exit "4" 7 13 "wave"}
+NAME chewbacca dialog
+
+DLG j
+Beep Boop (We are saved, we have actually been here {wvy}all day{/wvy}) {exit "4" 7 13 "wave"}
+NAME R2D2 dialog
+
+DLG k
+
+NAME chewbacca dialog 1
+
+DLG l
+Ummmm, I think I'm lost. Could you take me back to the party? {exit "0" 7 12 "wave"}
+NAME sprite 11 dialog
 
 TUNE 1
 l,d5,d5,r,d,l,0,d5,l,l,d5,l,s,d,0,0
